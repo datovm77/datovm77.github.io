@@ -1,3 +1,0 @@
-theme: 学习日记
-title: datovm77's homepage
-description: 收藏此书签，随时关注我的项目更新！
