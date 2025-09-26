@@ -1,0 +1,39 @@
+## 1.C语言代码中的2，8，10，16进制(2025年9月26日笔记）
+### 1.1二进制
+```c
+#include<stdio.h>
+int main()
+{
+int a = 0b101; //以0b开头
+printf("%d \n",a); //输出结果为5 = 1+4
+return 0;
+}
+```
+### 1.2 八进制
+```c
+#include<stdio.h>
+int main()
+{
+int a = 0101; //以0开头
+printf("%d \n",a); //输出结果为65 = 1+64
+return 0;
+}
+```
+### 1.3十进制
+
+### 1.4 十六进制(0-9与a-f组成)
+```c
+a = 10  b = 11 ......f = 15
+
+```
+>代码表示
+```c
+#include<stdio.h>
+int main()
+{
+int a = 0xa1; //以0x开头
+printf("%d \n",a); //输出结果为161
+return 0;
+}
+```
+
